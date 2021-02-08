@@ -186,6 +186,8 @@ CategoriaBaseImpl categoriaBaseFrutas = new CategoriaBaseImpl("Frutas");
 		listaFrutas.add(productoBaseImplFrutas3);
 		categoriaBaseFrutas.setProductos(listaFrutas);
 		listaCategorias.add(categoriaBaseFrutas);
+		
+		//20210208 1326 
 
 	}
 
