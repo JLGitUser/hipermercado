@@ -170,7 +170,22 @@ public class HiperMercadoMain {
 		categoriaBasePescaderia.setProductos(listapescaderia);
 		listaCategorias.add(categoriaBasePescaderia);
 
-
+CategoriaBaseImpl categoriaBaseFrutas = new CategoriaBaseImpl("Frutas");
+		ProductoBaseImpl productoBaseImplFrutas = new ProductoBaseImpl("000018");
+		List<IProductoBase> listaFrutas = new ArrayList<>();
+		productoBaseImplBebidas.setNombre("Naranja");
+		productoBaseImplBebidas.setPrecio(2f);
+		listaFrutas.add(productoBaseImplBebidas);
+		ProductoBaseImpl productoBaseImplFrutas2 = new ProductoBaseImpl("000019");
+		productoBaseImplFrutas2.setNombre("Pomelo");
+		productoBaseImplFrutas2.setPrecio(3f);
+		listaFrutas.add(productoBaseImplFrutas2);
+		ProductoBaseImpl productoBaseImplFrutas3 = new ProductoBaseImpl("000020");
+		productoBaseImplFrutas3.setNombre("Limón");
+		productoBaseImplFrutas3.setPrecio(4f);
+		listaFrutas.add(productoBaseImplFrutas3);
+		categoriaBaseFrutas.setProductos(listaFrutas);
+		listaCategorias.add(categoriaBaseFrutas);
 
 	}
 
